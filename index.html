@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+      
+<!-- Yasmin Almeida 2ºD 13/08/2025 --> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>História do Corinthians</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="fundadores.jpeg" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Elenco</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">SCCP</h1>
+                    <img src="fundadores 2.0.jpeg" class="mb-3" width="563" height="278" loading="lazy">
+                    <a href="#corinthians" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="corinthians.jpg"
+
+                    title= "A foto mostra o time do Corinthians perfilado no gramado antes de uma partida da
+                     Copa Santander Libertadores. Os jogadores estão vestidos com o uniforme branco tradicional,
+                      acompanhados pela comissão técnica. À frente deles há uma placa oficial da competição. 
+                      No fundo, a arquibancada está completamente lotada de torcedores, que seguram cartazes 
+                      formando um enorme mosaico com a palavra “CORINTHIANS”, criando um cenário de grande
+                       emoção e apoio. A atmosfera é de decisão, união e orgulho da torcida com o clube.">
+
+            </div>
+        </section>
+
+        <section id="corinthians" class="my-5 pt-6 secao-corinthians">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="escudo.png" class="rounded-pill" alt="" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Quem é o Sport Club Corinthians Paulista?</h2>
+                    <p class="p-2">O Sport Club Corinthians Paulista, conhecido popularmente como Corinthians,
+                         foi fundado em 1º de setembro de 1910, no bairro do Bom Retiro, em São Paulo. O nome foi inspirado no Corinthian Football Club,
+                          um time inglês que excursionava pelo Brasil na época. O clube foi criado por um grupo de operários com o objetivo de formar 
+                          um time de futebol acessível a todos, em contraste com os clubes elitistas da época.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="elenco">
+            <h2 class="text-center pt-5">Elenco</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="corinthias2022.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="corinthians2023.jpg" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="corinthians2024.jpg" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="corinthians-final-paulistao-2025_widelg.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Yasmin Almeida. Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
